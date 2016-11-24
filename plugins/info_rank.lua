@@ -1,6 +1,6 @@
 
 do
-local MKH = 239350998--put your id here(BOT OWNER ID)
+local MKH = 211752618--put your id here(BOT OWNER ID)
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -86,7 +86,7 @@ local function action_by_id(extra, success, result)  -- /info <ID> function
   text = text..''
   send_msg(extra.receiver, text, ok_cb,  true)
   else
-  send_msg(extra.receiver, '.\n«“ œ” Ê— “Ì— «” ›«œÂ ò‰Ìœ\n/info @username', ok_cb, false)
+  send_msg(extra.receiver, '.\n√á√í √è√ì√ä√¶√ë √í√≠√ë √á√ì√ä√ù√á√è√• Àú√§√≠√è\n/info @username', ok_cb, false)
   end
 end
 
