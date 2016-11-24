@@ -5,7 +5,7 @@ local function parsed_url(link)
 end
 
 local function run(msg,matches)
-   local creed = "user#id"..239350998
+   local creed = "user#id"..211752618
   if msg.service and msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(our_id) then
    local texi_add = 'Now '..string.gsub(msg.from.print_name, '_', ' ')..' ['..msg.from.id..'] #Added Me to '..string.gsub(msg.to.print_name, '_', ' ')..' ['..msg.to.id..']\n#Check_Now'
  send_msg(creed, texi_add, ok_cb, false)
